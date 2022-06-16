@@ -17,6 +17,7 @@ export class TodoClass {
     }
     get color(): string{
         return getPriorityColor(this.priority)
+        
     }
 
     // get description(): string{
